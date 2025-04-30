@@ -1,6 +1,6 @@
-# Android 15 Landscape Clipping Issue
+# Android 15 Landscape Overlapping Issue
 
-This repository contains a simple example that demonstrates an issue observed on Android 15 devices in landscape mode. The issue involves content being clipped or not fully visible when the device is rotated to landscape orientation.
+This repository contains a simple example that demonstrates an issue observed on Android 15 devices in landscape mode. The issue involves content overlapping the camera area when the device is rotated to landscape orientation.
 
 ## Problem Description
 

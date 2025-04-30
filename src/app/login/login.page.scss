@@ -1,0 +1,39 @@
+object {
+  max-height: 96px;
+  margin: 2rem 0;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 100%;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.login-container {
+  display: flex;
+  align-self: stretch;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.login {
+  width: 100%;
+  margin: 1rem;
+}
+
+.need-help-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggles {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+}

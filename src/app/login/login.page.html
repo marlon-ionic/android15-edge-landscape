@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <form>
+    <object type="image/svg+xml" data="assets/ion-logo.svg"></object>
+    <ion-input label="Outline input" label-placement="floating" fill="outline" placeholder="Enter text"></ion-input>
+    <ion-input label="Outline input" label-placement="floating" fill="outline" placeholder="Enter text"></ion-input>
+    <ion-button class="login" expand="block" size="large" color="primary">Login</ion-button>
+    <div class="need-help-container">
+      <ion-text color="primary">I need help loggin in</ion-text>
+    </div>
+
+    <div class="toggles">
+      <ion-toggle labelPlacement="end">Remember Me</ion-toggle>
+      <ion-toggle labelPlacement="end">Enable Biometrics</ion-toggle>
+    </div>
+    <ion-button color="primary" fill="clear">New User? Enroll</ion-button>
+  </form>
+</ion-content>
